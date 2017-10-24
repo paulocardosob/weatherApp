@@ -1,0 +1,25 @@
+body {
+    background-color: #161616;
+    color: #FFF;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap; 
+    flex-direction: column;
+    align-items: center;
+    align-content: stretch;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3.5em;
+}
+
+section {
+    font-size: 1.5em;
+}
+
+footer {
+    flex-grow: 1;
+    display: flex;
+    align-items: flex-end;
+}
